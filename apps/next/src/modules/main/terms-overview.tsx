@@ -95,7 +95,9 @@ export const TermsOverview = () => {
                 }}
               >
                 <ToggleGroup.Tab onClick={() => setStarredOnly(false)}>
-                  <Text color={!starredOnly ? "fieryEmber.300" : undefined}>All</Text>
+                  <Text color={!starredOnly ? "fieryEmber.300" : undefined}>
+                    All
+                  </Text>
                 </ToggleGroup.Tab>
                 <ToggleGroup.Tab
                   color={starredOnly ? "fieryEmber.300" : undefined}

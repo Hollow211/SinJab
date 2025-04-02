@@ -230,7 +230,10 @@ const Actionable: React.FC<ActionableProps> = ({
           </Box>
           <Stack spacing="2">
             <Flex alignItems="center" gap={3}>
-              <Box display={{ base: "inherit", sm: "none" }} color="fieryEmber.300">
+              <Box
+                display={{ base: "inherit", sm: "none" }}
+                color="fieryEmber.300"
+              >
                 <Icon />
               </Box>
               <Heading size="md">

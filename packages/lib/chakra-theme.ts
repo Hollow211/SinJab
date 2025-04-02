@@ -77,12 +77,12 @@ export const colors = {
     200: "#ff998a",
     300: "#ff715c",
     400: "#ff4833",
-    500: "#fb3d28",  // Base color
+    500: "#fb3d28", // Base color
     600: "#d13220",
     700: "#a42818",
     800: "#781d10",
     900: "#4d1208",
-  }
+  },
 };
 
 const $startColor = cssVar("skeleton-start-color");
@@ -233,7 +233,10 @@ export const components = {
     baseStyle: () => ({
       control: {
         rounded: "md",
-        _checked: { background: "fieryEmber.400", borderColor: "fieryEmber.400" },
+        _checked: {
+          background: "fieryEmber.400",
+          borderColor: "fieryEmber.400",
+        },
       },
       icon: { color: "white", padding: "2px" },
     }),

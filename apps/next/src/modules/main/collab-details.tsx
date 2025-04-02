@@ -182,7 +182,9 @@ export const CollabDetails = () => {
                           rounded="full"
                           w="8px"
                           h="8px"
-                          bg={c.type == "creator" ? "green.400" : "fieryEmber.300"}
+                          bg={
+                            c.type == "creator" ? "green.400" : "fieryEmber.300"
+                          }
                         />
                       </Box>
                     </Stack>
