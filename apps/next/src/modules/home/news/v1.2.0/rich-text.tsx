@@ -32,7 +32,7 @@ export const RichText = () => {
               w="100px"
               h="100px"
               rounded="full"
-              bg="blue.300"
+              bg="fieryEmber.300"
               filter="blur(60px)"
               zIndex={10}
             />
@@ -40,14 +40,14 @@ export const RichText = () => {
               zIndex={10}
               rounded="full"
               p="1.5px"
-              bgGradient="linear(to-r, blue.300 40%, purple.300 80%, purple.100)"
+              bgGradient="linear(to-r, fieryEmber.300 40%, purple.300 80%, purple.100)"
               position="relative"
             >
               <Box
                 zIndex={8}
                 position="absolute"
                 rounded="full"
-                bgGradient="linear(to-r, blue.300 40%, purple.300 80%, purple.100)"
+                bgGradient="linear(to-r, fieryEmber.300 40%, purple.300 80%, purple.100)"
                 top="0"
                 left="0"
                 w="full"

@@ -30,7 +30,7 @@ export const IntroducingCortex = () => {
               w="100px"
               h="100px"
               rounded="full"
-              bg="blue.200"
+              bg="fieryEmber.200"
               filter="blur(60px)"
             />
             <HStack zIndex={10} spacing="6">
@@ -61,17 +61,17 @@ export const IntroducingCortex = () => {
                 </HStack>
               </Stack>
               <HStack
-                color="blue.300"
-                bgGradient="linear(to-r, blue.700, blue.300)"
+                color="fieryEmber.300"
+                bgGradient="linear(to-r, fieryEmber.700, fieryEmber.300)"
                 _dark={{
-                  bgGradient: "linear(to-r, blue.100, blue.300)",
+                  bgGradient: "linear(to-r, fieryEmber.100, fieryEmber.300)",
                 }}
                 bgClip="text"
               >
                 <Box
-                  color="blue.700"
+                  color="fieryEmber.700"
                   _dark={{
-                    color: "blue.100",
+                    color: "fieryEmber.100",
                   }}
                 >
                   <IconBrain size={36} />

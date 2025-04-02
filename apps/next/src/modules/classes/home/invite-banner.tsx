@@ -210,7 +210,7 @@ export const InviteBanner = () => {
                   />
                 ) : (
                   <Center w={112} h={112}>
-                    <Spinner size="sm" color="blue.200" />
+                    <Spinner size="sm" color="fieryEmber.200" />
                   </Center>
                 )}
               </Box>

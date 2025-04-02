@@ -32,7 +32,7 @@ export const CircularTermMastery: React.FC<CircularTermMasteryProps> = ({
     <HStack spacing={6}>
       <CircularProgress
         value={perc}
-        color="blue.300"
+        color="fieryEmber.300"
         trackColor="orange.300"
         size="100px"
         w="max"
@@ -49,10 +49,10 @@ export const CircularTermMastery: React.FC<CircularTermMasteryProps> = ({
       <HStack spacing={4}>
         <Stack>
           <Center
-            color="blue.300"
+            color="fieryEmber.300"
             borderWidth="1.5px"
             rounded="full"
-            borderColor="blue.300"
+            borderColor="fieryEmber.300"
             px="2"
             w="max"
             shadow="sm"

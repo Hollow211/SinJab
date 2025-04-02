@@ -18,7 +18,7 @@ export const Quenti10 = () => {
               w="100px"
               h="100px"
               rounded="full"
-              bg="blue.200"
+              bg="fieryEmber.200"
               filter="blur(60px)"
             />
             <Box zIndex={10} position="relative">
@@ -39,7 +39,7 @@ export const Quenti10 = () => {
               <Heading
                 position="relative"
                 size="3xl"
-                bgGradient="linear(to-b, blue.300, blue.200)"
+                bgGradient="linear(to-b, fieryEmber.300, fieryEmber.200)"
                 bgClip="text"
                 zIndex={12}
               >

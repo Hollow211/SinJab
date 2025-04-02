@@ -30,13 +30,13 @@ export const ThemePreview: React.FC<ThemePreviewProps> = ({
       shadow="sm"
       outline="2px solid"
       transition="outline-color 1s ease-in-out"
-      outlineColor={selected ? "blue.300" : "transparent"}
+      outlineColor={selected ? "fieryEmber.300" : "transparent"}
     >
       <Stack>
         <HStack>
           <Logo w="3" h="3" />
           <Box h="1" w="4" bg={mutedCard} rounded="sm" />
-          <Box h="2" w="4" bg="blue.400" rounded="sm" shadow="sm" />
+          <Box h="2" w="4" bg="fieryEmber.400" rounded="sm" shadow="sm" />
         </HStack>
         <Stack spacing="6px">
           <Stack spacing="2px">

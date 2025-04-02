@@ -277,7 +277,7 @@ export const SkeletonTab = forwardRef(function SkeletonTab(
         _selected={{
           color: "gray.900",
           _after: {
-            bg: "blue.300",
+            bg: "fieryEmber.300",
           },
         }}
         _dark={{

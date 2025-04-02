@@ -68,7 +68,7 @@ export const SelectableGenericCard: React.FC<SelectableGenericCard> = ({
       outline="solid 2px transparent"
       outlineOffset={2}
       _focusVisible={{
-        outlineColor: "blue.200",
+        outlineColor: "fieryEmber.200",
       }}
       cursor="pointer"
       onClick={onSelect}

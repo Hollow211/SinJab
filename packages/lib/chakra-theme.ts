@@ -71,6 +71,18 @@ export const colors = {
     850: "#191D28",
     1000: "#171923",
   },
+  fieryEmber: {
+    50: "#ffeae5",
+    100: "#ffc2b8",
+    200: "#ff998a",
+    300: "#ff715c",
+    400: "#ff4833",
+    500: "#fb3d28",  // Base color
+    600: "#d13220",
+    700: "#a42818",
+    800: "#781d10",
+    900: "#4d1208",
+  }
 };
 
 const $startColor = cssVar("skeleton-start-color");
@@ -102,7 +114,7 @@ const skeletonTheme = defineStyleConfig({
 export const components = {
   Button: {
     defaultProps: {
-      colorScheme: "blue",
+      colorScheme: "fieryEmber",
     },
     variants: {
       outline: ({ colorMode, colorScheme }: StyleFunctionProps) => ({
@@ -118,12 +130,12 @@ export const components = {
         borderRadius: "lg",
       }),
       solid: () => ({
-        bg: "blue.400",
+        bg: "fieryEmber.400",
         borderRadius: "lg",
         color: "white",
         shadow: "inset 0 1px 0 0 rgb(255 255 255/.2)",
         _hover: {
-          bg: "blue.300",
+          bg: "fieryEmber.300",
         },
       }),
     },
@@ -211,7 +223,7 @@ export const components = {
         borderColor: colorMode == "light" ? "gray.100" : "gray.700",
         bg: colorMode == "light" ? "gray.200" : "gray.750",
         _checked: {
-          bg: "blue.300",
+          bg: "fieryEmber.300",
         },
       },
     }),
@@ -221,7 +233,7 @@ export const components = {
     baseStyle: () => ({
       control: {
         rounded: "md",
-        _checked: { background: "blue.400", borderColor: "blue.400" },
+        _checked: { background: "fieryEmber.400", borderColor: "fieryEmber.400" },
       },
       icon: { color: "white", padding: "2px" },
     }),

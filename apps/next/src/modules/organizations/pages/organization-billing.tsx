@@ -45,7 +45,7 @@ export const OrganizationBilling = () => {
   const firstConflicting = org?.domains.find((d) => d.conflicting);
 
   const cardBg = useColorModeValue("white", "gray.800");
-  const highlight = useColorModeValue("blue.500", "blue.200");
+  const highlight = useColorModeValue("fieryEmber.500", "fieryEmber.200");
   const mutedText = useColorModeValue("gray.700", "gray.300");
 
   const defaultMessage = (
@@ -54,7 +54,7 @@ export const OrganizationBilling = () => {
       need to{" "}
       <Link
         href={`/api/orgs/${org?.id || ""}/purchase`}
-        color="blue.300"
+        color="fieryEmber.300"
         transition="color 0.2s ease-in-out"
         _hover={{ color: highlight }}
         fontWeight={600}
@@ -73,7 +73,7 @@ export const OrganizationBilling = () => {
       organization. Please reach out to us at{" "}
       <Link
         href={`mailto:${ORG_SUPPORT_EMAIL}`}
-        color="blue.300"
+        color="fieryEmber.300"
         transition="color 0.2s ease-in-out"
         _hover={{ color: highlight }}
         fontWeight={700}

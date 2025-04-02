@@ -16,7 +16,7 @@ export const Clickable: React.FC<React.PropsWithChildren<ClickableProps>> = ({
   children,
   hasIcon = evaluation !== undefined,
 }) => {
-  const selectedBorder = useColorModeValue("blue.600", "blue.200");
+  const selectedBorder = useColorModeValue("fieryEmber.600", "fieryEmber.200");
   const correctBorder = useColorModeValue(
     "rgba(47, 133, 90, 0.2)",
     "rgba(154, 230, 180, 0.2)",

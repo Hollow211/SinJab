@@ -49,18 +49,18 @@ export const CortexGraded: React.FC<CortextGradedProps> = ({ response }) => {
         placement="top"
       >
         <HStack
-          color="blue.300"
+          color="fieryEmber.300"
           spacing="4px"
-          bgGradient="linear(to-r, blue.700, blue.300)"
+          bgGradient="linear(to-r, fieryEmber.700, fieryEmber.300)"
           _dark={{
-            bgGradient: "linear(to-r, blue.100, blue.300)",
+            bgGradient: "linear(to-r, fieryEmber.100, fieryEmber.300)",
           }}
           bgClip="text"
         >
           <Box
-            color="blue.700"
+            color="fieryEmber.700"
             _dark={{
-              color: "blue.100",
+              color: "fieryEmber.100",
             }}
           >
             <IconBrain size={16} />

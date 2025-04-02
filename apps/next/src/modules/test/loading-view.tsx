@@ -109,9 +109,9 @@ const LoadingViewRaw = () => {
               animation={`${blueBlob} 7s ease infinite`}
               pos="absolute"
               right="-100px"
-              bg="blue.200"
+              bg="fieryEmber.200"
               _dark={{
-                bg: "blue.400",
+                bg: "fieryEmber.400",
               }}
               boxSize="400px"
               rounded="full"

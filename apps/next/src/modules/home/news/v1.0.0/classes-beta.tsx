@@ -36,7 +36,7 @@ export const ClassesBeta = () => {
               w="100px"
               h="100px"
               rounded="full"
-              bg="blue.300"
+              bg="fieryEmber.300"
               filter="blur(60px)"
             />
             <Box
@@ -54,7 +54,7 @@ export const ClassesBeta = () => {
                   h="full"
                   position="absolute"
                   rounded="xl"
-                  bgGradient="linear(to-tr, blue.300, purple.300)"
+                  bgGradient="linear(to-tr, fieryEmber.300, purple.300)"
                   clipPath="url(#banner)"
                 />
                 <svg>

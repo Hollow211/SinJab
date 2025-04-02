@@ -79,7 +79,7 @@ export const EmptyDashboard = () => {
           left="0"
           w="full"
           h="500px"
-          bgGradient="radial(circle at center, blue.300 10%, transparent 90%)"
+          bgGradient="radial(circle at center, fieryEmber.300 10%, transparent 90%)"
           className="blur-2xl"
           opacity="0.3"
           rounded="full"

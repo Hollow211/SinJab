@@ -186,7 +186,7 @@ const VerifyEmailContainer: React.FC<VerifyEmailContainerProps> = ({
       display="flex"
       alignItems="center"
       justifyContent="center"
-      color="blue.300"
+      color="fieryEmber.300"
     >
       <Spinner w="20px" h="20px" />
     </Box>

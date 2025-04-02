@@ -91,7 +91,7 @@ export default function OrgPublish() {
                   opacity="0.9"
                   _groupHover={{
                     transform: "translateY(-68px)",
-                    color: "blue.300",
+                    color: "fieryEmber.300",
                   }}
                 >
                   <Fade in={!!org}>
@@ -114,7 +114,7 @@ export default function OrgPublish() {
                   _groupHover={{
                     transform:
                       "translateY(-58px) translateX(-24px) rotate(-10deg)",
-                    color: "blue.300",
+                    color: "fieryEmber.300",
                     opacity: "0.7",
                   }}
                 >
@@ -136,7 +136,7 @@ export default function OrgPublish() {
                   _groupHover={{
                     transform:
                       "translateY(-80px) translateX(32px) rotate(5deg)",
-                    color: "blue.300",
+                    color: "fieryEmber.300",
                     opacity: "0.5",
                   }}
                   fill={balloon}

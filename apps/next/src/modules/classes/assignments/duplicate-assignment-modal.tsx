@@ -80,7 +80,7 @@ export const DuplicateAssignmentModal: React.FC<
                   }}
                   outline="2px solid"
                   outlineColor={
-                    sectionIds.includes(section.id) ? "blue.300" : "transparent"
+                    sectionIds.includes(section.id) ? "fieryEmber.300" : "transparent"
                   }
                   py="6px"
                   px="3"

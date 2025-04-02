@@ -18,11 +18,11 @@ export const CreateCta = () => {
         textDecoration: "none",
       }}
       _active={{
-        color: "blue.700",
+        color: "fieryEmber.700",
       }}
       _dark={{
         _active: {
-          color: "blue.100",
+          color: "fieryEmber.100",
         },
       }}
       onClick={async () => {

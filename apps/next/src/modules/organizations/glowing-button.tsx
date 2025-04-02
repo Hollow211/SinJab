@@ -50,7 +50,7 @@ export const GlowingButton: React.FC<
                 unmountOnExit
                 initialScale={2.5}
               >
-                <Spinner color="blue.300" size="xl" emptyColor="orange.200" />
+                <Spinner color="fieryEmber.300" size="xl" emptyColor="orange.200" />
               </ScaleFade>
             </Box>
           )}

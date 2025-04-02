@@ -35,7 +35,7 @@ export const StudyStarredSection = () => {
         w="max"
       >
         <ToggleGroup.Tab
-          color={!studyStarred ? "blue.300" : undefined}
+          color={!studyStarred ? "fieryEmber.300" : undefined}
           onClick={() => {
             setStudyStarred(false);
             apiStudyStarred.mutate({
@@ -48,7 +48,7 @@ export const StudyStarredSection = () => {
           All
         </ToggleGroup.Tab>
         <ToggleGroup.Tab
-          color={studyStarred ? "blue.300" : undefined}
+          color={studyStarred ? "fieryEmber.300" : undefined}
           onClick={() => {
             setStudyStarred(true);
             apiStudyStarred.mutate({

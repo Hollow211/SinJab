@@ -2,8 +2,8 @@ import { Box, Fade, useColorModeValue } from "@chakra-ui/react";
 
 export const AuthGradient = () => {
   const gradient = useColorModeValue(
-    "linear(to-t, gray.50, blue.300)",
-    "linear(to-t, gray.1000, blue.300)",
+    "linear(to-t, gray.50, fieryEmber.300)",
+    "linear(to-t, gray.1000, fieryEmber.300)",
   );
   const gradientOpacity = useColorModeValue("0.3", "0.1");
 

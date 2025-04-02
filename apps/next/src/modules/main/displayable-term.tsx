@@ -162,7 +162,7 @@ export const DisplayableTerm: React.FC<DisplayableTermProps> = ({ term }) => {
       shadow="0 2px 6px -4px rgba(0, 0, 0, 0.1), 0 2px 4px -4px rgba(0, 0, 0, 0.06)"
       borderWidth="1.5px"
       transition="border-color 0.15s ease-in-out"
-      borderColor={isEditing ? "blue.100" : "gray.100"}
+      borderColor={isEditing ? "fieryEmber.100" : "gray.100"}
       rounded="xl"
       _dark={{
         bg: "gray.750",

@@ -64,7 +64,7 @@ export const LeaderboardEntry: React.FC<LeaderboardEntryProps> = ({
             rounded="full"
             h="full"
             w="1"
-            bg="blue.300"
+            bg="fieryEmber.300"
           />
         )}
       </Box>
@@ -75,7 +75,7 @@ export const LeaderboardEntry: React.FC<LeaderboardEntryProps> = ({
             <HStack spacing="1">
               <UsernameLink username={user.username} />
               {user.verified && (
-                <Box color="blue.300">
+                <Box color="fieryEmber.300">
                   <Tooltip label="Verified">
                     <IconDiscountCheck aria-label="Verified" size={18} />
                   </Tooltip>
@@ -97,7 +97,7 @@ export const LeaderboardEntry: React.FC<LeaderboardEntryProps> = ({
             px="4"
             py="2"
             rounded="full"
-            color="blue.300"
+            color="fieryEmber.300"
           >
             <Heading fontSize="lg">{`${formatDeciseconds(time)}s`}</Heading>
           </Box>

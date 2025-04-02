@@ -52,7 +52,7 @@ export const BannerPicker: React.FC<
                 w="10"
                 h="8"
                 rounded="lg"
-                bgGradient={`linear(to-tr, blue.300, ${c})`}
+                bgGradient={`linear(to-tr, fieryEmber.300, ${c})`}
                 cursor="pointer"
                 onClick={() => onSelect(c)}
                 color="white"

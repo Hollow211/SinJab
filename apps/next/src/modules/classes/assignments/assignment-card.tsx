@@ -58,13 +58,13 @@ export const AssignmentCard = (props: AssignmentCardProps) => {
       borderColor="gray.100"
       _hover={{
         transform: "translateY(-2px)",
-        borderBottomColor: "blue.300",
+        borderBottomColor: "fieryEmber.300",
       }}
       _dark={{
         borderColor: "gray.700",
         bg: "gray.800",
         _hover: {
-          borderBottomColor: "blue.300",
+          borderBottomColor: "fieryEmber.300",
         },
       }}
       rounded="lg"
@@ -72,10 +72,10 @@ export const AssignmentCard = (props: AssignmentCardProps) => {
       shadow="md"
       sx={{
         "&:has(:focus-visible)": {
-          borderColor: "blue.300",
+          borderColor: "fieryEmber.300",
           transform: "translateY(-2px)",
           _dark: {
-            borderColor: "blue.300",
+            borderColor: "fieryEmber.300",
           },
         },
       }}
@@ -212,9 +212,9 @@ export const AssignmentCard = (props: AssignmentCardProps) => {
                 transition="width ease-in-out 300ms"
                 top="0"
                 left="0"
-                bg="blue.500"
+                bg="fieryEmber.500"
                 _dark={{
-                  bg: "blue.200",
+                  bg: "fieryEmber.200",
                 }}
               />
             </Box>

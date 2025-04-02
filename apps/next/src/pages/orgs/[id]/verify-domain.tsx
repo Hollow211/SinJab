@@ -95,7 +95,7 @@ export default function OrgVerifyEmail() {
       display="flex"
       alignItems="center"
       justifyContent="center"
-      color="blue.300"
+      color="fieryEmber.300"
     >
       <Spinner w="20px" h="20px" />
     </Box>

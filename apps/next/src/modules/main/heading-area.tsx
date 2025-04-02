@@ -79,11 +79,11 @@ export const HeadingArea = () => {
                 w="88px"
                 borderWidth="1px"
                 borderColor="gray.300"
-                color="blue.600"
+                color="fieryEmber.600"
                 bg="white"
                 _dark={{
                   bg: "gray.800",
-                  color: "blue.100",
+                  color: "fieryEmber.100",
                   borderColor: "gray.600",
                 }}
                 shadow="sm"

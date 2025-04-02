@@ -86,9 +86,9 @@ export const DeloadedTermRaw: React.FC<DeloadedTermProps> = ({
             height="24px"
             justifyContent={{ base: "space-between", md: "end" }}
             w="full"
-            color="blue.600"
+            color="fieryEmber.600"
             _dark={{
-              color: "blue.200",
+              color: "fieryEmber.200",
             }}
           >
             {creator ? (

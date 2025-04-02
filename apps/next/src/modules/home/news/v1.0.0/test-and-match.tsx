@@ -20,14 +20,14 @@ export const TestAndMatch = () => {
               w="100px"
               h="100px"
               rounded="full"
-              bg="blue.300"
+              bg="fieryEmber.300"
               filter="blur(60px)"
             />
             <HStack
               zIndex={10}
-              color="blue.700"
+              color="fieryEmber.700"
               _dark={{
-                color: "blue.100",
+                color: "fieryEmber.100",
               }}
             >
               <IconReport size={36} />

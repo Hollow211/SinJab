@@ -35,7 +35,7 @@ export const Images = () => {
               w="100px"
               h="100px"
               rounded="full"
-              bg="blue.300"
+              bg="fieryEmber.300"
               filter="blur(60px)"
               zIndex={10}
             />
@@ -47,14 +47,14 @@ export const Images = () => {
                   left="0"
                   w="full"
                   h="full"
-                  bgGradient="linear(to-tr, blue.300, purple.200)"
+                  bgGradient="linear(to-tr, fieryEmber.300, purple.200)"
                   zIndex={10}
                   rounded="md"
                   filter="blur(8px)"
                   opacity={0.4}
                 />
                 <Center
-                  bgGradient="linear(to-tr, blue.300, purple.200)"
+                  bgGradient="linear(to-tr, fieryEmber.300, purple.200)"
                   w="full"
                   h="full"
                   rounded="md"
@@ -66,12 +66,12 @@ export const Images = () => {
                 </Center>
               </GridItem>
               <DoubleWrapper opacity={0.9}>
-                <Cell bgGradient="linear(to-tr, blue.200, blue.100)" />
+                <Cell bgGradient="linear(to-tr, fieryEmber.200, fieryEmber.100)" />
                 <Cell bgGradient="linear(to-tr, orange.100, red.100)" />
               </DoubleWrapper>
               <DoubleWrapper opacity={0.7}>
                 <Cell bgGradient="linear(to-tr, purple.200, purple.100)" />
-                <Cell bgGradient="linear(to-tr, blue.100, cyan.100)" />
+                <Cell bgGradient="linear(to-tr, fieryEmber.100, cyan.100)" />
               </DoubleWrapper>
               <DoubleWrapper opacity={0.5}>
                 <Cell bgGradient="linear(to-tr, pink.200, pink.100)" />
@@ -98,7 +98,7 @@ const DoubleWrapper: React.FC<GridItemProps> = ({ children, ...props }) => {
 const Cell: React.FC<BoxProps> = (props) => {
   return (
     <GridItem aspectRatio="1 / 1">
-      <Box bg="blue.100" w="full" h="full" rounded="md" {...props} />
+      <Box bg="fieryEmber.100" w="full" h="full" rounded="md" {...props} />
     </GridItem>
   );
 };

@@ -238,7 +238,7 @@ export const ImportFromQuizletModal: React.FC<ImportFromQuizletModalProps> = ({
                 >
                   <Spinner
                     size="sm"
-                    color="blue.300"
+                    color="fieryEmber.300"
                     animation={`${spin} 1.25s cubic-bezier(.54,-0.18,.39,.97) infinite`}
                     style={{
                       animationDelay: "0.8s",

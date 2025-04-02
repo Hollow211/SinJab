@@ -120,14 +120,14 @@ export default function Verify() {
                   Wrong email?{" "}
                   <Link
                     href="/auth/signup"
-                    color="blue.300"
+                    color="fieryEmber.300"
                     _hover={{
-                      color: "blue.200",
+                      color: "fieryEmber.200",
                     }}
                     _dark={{
-                      color: "blue.200",
+                      color: "fieryEmber.200",
                       _hover: {
-                        color: "blue.100",
+                        color: "fieryEmber.100",
                       },
                     }}
                     transition="color 0.2s ease-in-out"

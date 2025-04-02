@@ -39,7 +39,7 @@ export default function OrgDomainFilter() {
   const [loading, setLoading] = React.useState(false);
 
   const linkDefault = useColorModeValue("gray.700", "gray.300");
-  const highlight = useColorModeValue("blue.500", "blue.200");
+  const highlight = useColorModeValue("fieryEmber.500", "fieryEmber.200");
 
   return (
     <OnboardingMetadata step="domain-filter">
@@ -176,7 +176,7 @@ const ExampleCard = ({
       onClick={onClick}
       transition="all 0.2s ease-in-out"
       outline="solid 2px"
-      outlineColor={isSelected ? "blue.300" : "transparent"}
+      outlineColor={isSelected ? "fieryEmber.300" : "transparent"}
       _hover={{
         bg: hoverBg,
       }}

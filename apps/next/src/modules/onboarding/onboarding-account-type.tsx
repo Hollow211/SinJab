@@ -24,7 +24,7 @@ const AccountType = () => {
   const router = useRouter();
   const next = useNextStep();
 
-  const textHighlight = useColorModeValue("blue.500", "blue.300");
+  const textHighlight = useColorModeValue("fieryEmber.500", "fieryEmber.300");
 
   const hasOrgInvites = router.query.orgInvites === "true";
 

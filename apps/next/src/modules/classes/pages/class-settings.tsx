@@ -287,7 +287,7 @@ export const ClassSettings = () => {
                     h="16"
                     cursor="pointer"
                     rounded="lg"
-                    bgGradient={`linear(to-tr, blue.300, ${bannerColor})`}
+                    bgGradient={`linear(to-tr, fieryEmber.300, ${bannerColor})`}
                     onClick={() => setBannerPickerOpen(true)}
                     shadow="sm"
                     position="relative"

@@ -5,7 +5,7 @@ import { useColorModeValue } from "@chakra-ui/react";
 export const UsernameLink: React.FC<
   Omit<React.ComponentProps<typeof Link>, "href"> & { username: string | null }
 > = (props) => {
-  const highlight = useColorModeValue("blue.500", "blue.200");
+  const highlight = useColorModeValue("fieryEmber.500", "fieryEmber.200");
 
   return (
     <Link

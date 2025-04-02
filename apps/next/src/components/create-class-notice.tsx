@@ -43,10 +43,10 @@ export const CreateClassNotice = () => {
                     fontWeight={600}
                     transition="color 0.2s ease-in-out"
                     color="gray.600"
-                    _hover={{ color: "blue.500" }}
+                    _hover={{ color: "fieryEmber.500" }}
                     _dark={{
                       color: "gray.400",
-                      _hover: { color: "blue.200" },
+                      _hover: { color: "fieryEmber.200" },
                     }}
                   >
                     Learn more

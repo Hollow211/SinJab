@@ -474,7 +474,7 @@ export const CommandMenu: React.FC<CommandMenuProps> = ({
             )}
             {recentQuery.isLoading && !filteredOptions.length && (
               <Center w="full" h="16">
-                <Spinner color="blue.300" />
+                <Spinner color="fieryEmber.300" />
               </Center>
             )}
             {filteredOptions.map((o, i) => (

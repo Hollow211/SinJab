@@ -117,8 +117,8 @@ export const AuthLayout: React.FC<AuthLayoutProps> = ({
 
   const verb = mode == "signup" ? "up" : "in";
   const gradient = useColorModeValue(
-    "linear(to-t, gray.50, blue.300)",
-    "linear(to-t, gray.1000, blue.300)",
+    "linear(to-t, gray.50, fieryEmber.300)",
+    "linear(to-t, gray.1000, fieryEmber.300)",
   );
   const gradientOpacity = useColorModeValue("0.3", "0.1");
   const termsColor = useColorModeValue("gray.400", "gray.600");

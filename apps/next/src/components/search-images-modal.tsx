@@ -355,9 +355,9 @@ export const SearchImagesModal: React.FC<SearchImagesModalProps> = ({
                 <Center h="46px" zIndex={10}>
                   <HStack spacing="3">
                     <Box
-                      color="blue.600"
+                      color="fieryEmber.600"
                       _dark={{
-                        color: "blue.100",
+                        color: "fieryEmber.100",
                       }}
                       position="relative"
                     >

@@ -367,9 +367,9 @@ export const AssignmentStudySet = () => {
                       px="8px"
                       borderWidth="1px"
                       borderColor="gray.300"
-                      color="blue.600"
+                      color="fieryEmber.600"
                       _dark={{
-                        color: "blue.100",
+                        color: "fieryEmber.100",
                         borderColor: "gray.600",
                       }}
                       rounded="full"

@@ -86,12 +86,12 @@ export const GenericCard = ({
       zIndex={menuOpen ? 30 : 25}
       _hover={{
         transform: "translateY(-2px)",
-        borderBottomColor: "blue.300",
+        borderBottomColor: "fieryEmber.300",
       }}
       sx={{
         "&:has(:focus-visible)": {
           transform: "translateY(-2px)",
-          borderColor: "blue.300",
+          borderColor: "fieryEmber.300",
         },
       }}
     >

@@ -30,7 +30,7 @@ export const SelectAnswerMode: React.FC<SelectAnswerModeProps> = ({
 }) => {
   const baseBg = useColorModeValue("gray.100", "gray.750");
   const dropdownBg = useColorModeValue("gray.200", "gray.700");
-  const chevronColor = useColorModeValue("blue.400", "blue.200");
+  const chevronColor = useColorModeValue("fieryEmber.400", "fieryEmber.200");
 
   return (
     <Select

@@ -73,7 +73,7 @@ export const ClassCard: React.FC<ClassCardProps> = ({
       rounded="lg"
       p="5"
       bg={linkBg}
-      borderColor={selected ? "blue.300" : linkBorder}
+      borderColor={selected ? "fieryEmber.300" : linkBorder}
       opacity={variant !== "selectable" || selected ? 1 : 0.7}
       borderWidth="2px"
       shadow="lg"
@@ -82,12 +82,12 @@ export const ClassCard: React.FC<ClassCardProps> = ({
       cursor={variant == "selectable" ? "pointer" : undefined}
       _hover={{
         transform: "translateY(-2px)",
-        ...(variant == "normal" ? { borderBottomColor: "blue.300" } : {}),
+        ...(variant == "normal" ? { borderBottomColor: "fieryEmber.300" } : {}),
       }}
       sx={{
         "&:has(:focus-visible)": {
           transform: "translateY(-2px)",
-          ...(variant == "normal" ? { borderColor: "blue.300" } : {}),
+          ...(variant == "normal" ? { borderColor: "fieryEmber.300" } : {}),
         },
       }}
       overflow="hidden"
@@ -102,7 +102,7 @@ export const ClassCard: React.FC<ClassCardProps> = ({
         justifyContent="end"
         top="0"
         left="0"
-        bgGradient={`linear(to-r, blue.400, ${bannerColor})`}
+        bgGradient={`linear(to-r, fieryEmber.400, ${bannerColor})`}
         zIndex="50"
         pointerEvents="none"
       />

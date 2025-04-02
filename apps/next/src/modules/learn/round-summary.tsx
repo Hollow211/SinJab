@@ -44,7 +44,7 @@ export const RoundSummary = () => {
               mass: 100,
             }}
           >
-            <Box w="full" h="full" bg="blue.300" />
+            <Box w="full" h="full" bg="fieryEmber.300" />
           </motion.div>
         </Box>
       </Stack>

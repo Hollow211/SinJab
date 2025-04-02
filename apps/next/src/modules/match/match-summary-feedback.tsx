@@ -68,7 +68,7 @@ const leaderboardSummary = (
     return (
       <>
         Now see if you can beat{" "}
-        <UsernameLink username={successor.user.username} color="blue.300" />
+        <UsernameLink username={successor.user.username} color="fieryEmber.300" />
         &apos;{!successor.user.username?.toLowerCase().endsWith("s")
           ? "s"
           : ""}{" "}

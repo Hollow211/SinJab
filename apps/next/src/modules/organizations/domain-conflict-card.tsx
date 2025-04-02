@@ -25,7 +25,7 @@ export const DomainConflictCard: React.FC<DomainConflictCardProps> = ({
   const cardBg = useColorModeValue("white", "gray.750");
   const mutedColor = useColorModeValue("gray.700", "gray.300");
   const linkDefault = useColorModeValue("gray.900", "whiteAlpha.900");
-  const highlight = useColorModeValue("blue.500", "blue.200");
+  const highlight = useColorModeValue("fieryEmber.500", "fieryEmber.200");
 
   return (
     <SlideFade in>

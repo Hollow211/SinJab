@@ -99,7 +99,7 @@ export const ResultsCard = () => {
         <HStack spacing="4" alignItems="stretch">
           <CircularProgress
             value={perc}
-            color="blue.300"
+            color="fieryEmber.300"
             trackColor={trackColor}
             // @ts-expect-error type '{ base: string; sm: string; }' is not assignable...
             size={{ base: "100px", sm: "140px" }}
@@ -122,7 +122,7 @@ export const ResultsCard = () => {
           <Center justifySelf={{ base: "start", md: undefined }}>
             <Stack>
               <HStack>
-                <Box color="blue.300">
+                <Box color="fieryEmber.300">
                   <IconCircleCheck />
                 </Box>
                 <Heading size="md">

@@ -78,7 +78,7 @@ const OrgDisplayRaw = () => {
                 {org?.name || "Loading..."}
               </Heading>
               {org?.published ? (
-                <Box color="blue.300">
+                <Box color="fieryEmber.300">
                   <Tooltip label="Verified organization">
                     <IconDiscountCheck aria-label="Verified" />
                   </Tooltip>

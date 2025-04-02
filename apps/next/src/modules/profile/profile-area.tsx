@@ -36,7 +36,7 @@ export const ProfileArea = () => {
             {profile.name ?? profile.username}
           </Heading>
           {profile.verified && (
-            <Box color="blue.300">
+            <Box color="fieryEmber.300">
               <Tooltip label="Verified">
                 <IconDiscountCheck aria-label="Verified" />
               </Tooltip>

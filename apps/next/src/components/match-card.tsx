@@ -116,7 +116,7 @@ export const RawMatchCard: React.FC<MatchCardProps> = ({
         position="absolute"
         cursor="move"
         _hover={{
-          borderBottomColor: stateBorder ?? "blue.300",
+          borderBottomColor: stateBorder ?? "fieryEmber.300",
         }}
       >
         <Stack spacing="4">

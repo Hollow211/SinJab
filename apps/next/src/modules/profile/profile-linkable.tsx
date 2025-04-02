@@ -44,21 +44,21 @@ export const ProfileLinkable = ({
       borderColor="gray.200"
       _hover={{
         transform: "translateY(-2px)",
-        borderBottomColor: "blue.300",
+        borderBottomColor: "fieryEmber.300",
       }}
       _dark={{
         bg: "gray.800",
         borderColor: "gray.700",
         _hover: {
-          borderBottomColor: "blue.300",
+          borderBottomColor: "fieryEmber.300",
         },
       }}
       sx={{
         "&:has(:focus-visible)": {
-          borderColor: "blue.300",
+          borderColor: "fieryEmber.300",
           transform: "translateY(-2px)",
           _dark: {
-            borderColor: "blue.300",
+            borderColor: "fieryEmber.300",
           },
         },
       }}

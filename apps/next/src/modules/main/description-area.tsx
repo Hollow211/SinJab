@@ -19,7 +19,7 @@ import { ActionArea } from "./action-area";
 
 export const DescriptionArea = () => {
   const { description, user } = useSet();
-  const highlight = useColorModeValue("blue.500", "blue.200");
+  const highlight = useColorModeValue("fieryEmber.500", "fieryEmber.200");
 
   return (
     <Stack spacing={8}>
@@ -42,7 +42,7 @@ export const DescriptionArea = () => {
                 {user.username}
               </Link>
               {user.verified && (
-                <Box color="blue.300">
+                <Box color="fieryEmber.300">
                   <Tooltip label="Verified">
                     <IconDiscountCheck size={20} aria-label="Verified" />
                   </Tooltip>

@@ -121,7 +121,7 @@ export const DomainFilterForm = React.forwardRef(function DomainFilterForm(
     [],
   );
 
-  const highlight = useColorModeValue("blue.500", "blue.200");
+  const highlight = useColorModeValue("fieryEmber.500", "fieryEmber.200");
   const addonBg = useColorModeValue("gray.100", "gray.750");
   const error = useColorModeValue("red.600", "red.300");
 

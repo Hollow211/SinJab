@@ -214,7 +214,7 @@ const Actionable: React.FC<ActionableProps> = ({
       transition="all ease-in-out 150ms"
       _hover={{
         transform: "translateY(-2px)",
-        borderBottomColor: "blue.200",
+        borderBottomColor: "fieryEmber.200",
       }}
       cursor="pointer"
       onClick={onClick}
@@ -223,14 +223,14 @@ const Actionable: React.FC<ActionableProps> = ({
         <HStack>
           <Box
             display={{ base: "none", sm: "inherit" }}
-            color="blue.200"
+            color="fieryEmber.200"
             mr="3"
           >
             <Icon size={32} />
           </Box>
           <Stack spacing="2">
             <Flex alignItems="center" gap={3}>
-              <Box display={{ base: "inherit", sm: "none" }} color="blue.300">
+              <Box display={{ base: "inherit", sm: "none" }} color="fieryEmber.300">
                 <Icon />
               </Box>
               <Heading size="md">

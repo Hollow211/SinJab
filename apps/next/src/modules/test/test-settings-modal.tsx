@@ -112,16 +112,16 @@ export const TestSettingsModal: React.FC<TestSettingsModalProps> = ({
                   rounded="full"
                 >
                   <Box position="relative" right={10} />
-                  <SliderFilledTrack bg="blue.300" />
+                  <SliderFilledTrack bg="fieryEmber.300" />
                 </SliderTrack>
                 <SliderThumb
                   boxSize={12}
                   borderWidth="3px"
                   bg="white"
-                  borderColor="blue.300"
+                  borderColor="fieryEmber.300"
                   _dark={{
                     bg: "gray.800",
-                    borderColor: "blue.300",
+                    borderColor: "fieryEmber.300",
                   }}
                   shadow="md"
                   transitionProperty="transform,border-width"
@@ -256,7 +256,7 @@ const QuestionTypeComponent: React.FC<{ type: TestQuestionType }> = ({
     });
   };
 
-  const selectedBorder = useColorModeValue("blue.600", "blue.200");
+  const selectedBorder = useColorModeValue("fieryEmber.600", "fieryEmber.200");
   const defaultBorder = useColorModeValue("gray.200", "gray.600");
 
   return (

@@ -20,7 +20,7 @@ export const SectionSelect: React.FC<SectionSelectProps> = ({
 }) => {
   const baseBg = useColorModeValue("white", "gray.800");
   const dropdownBg = useColorModeValue("gray.100", "gray.750");
-  const chevronColor = useColorModeValue("blue.400", "blue.200");
+  const chevronColor = useColorModeValue("fieryEmber.400", "fieryEmber.200");
 
   const options = sections.map((x) => ({ value: x.id, label: x.name }));
 

@@ -220,7 +220,7 @@ const OrganizationActivityRaw = () => {
                     : {}
                 }
               >
-                <Spinner size="sm" color="blue.300" />
+                <Spinner size="sm" color="fieryEmber.300" />
               </motion.div>
               <Skeleton rounded="lg" isLoaded={initialized}>
                 <TabList color="gray" variant="solid">

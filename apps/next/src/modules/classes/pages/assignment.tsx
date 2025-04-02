@@ -311,9 +311,9 @@ export const Assignment = () => {
                       fontWeight={700}
                       bgClip="text"
                       fontFamily={outfit.style.fontFamily}
-                      bgGradient="linear(to-r, blue.600, blue.500)"
+                      bgGradient="linear(to-r, fieryEmber.600, fieryEmber.500)"
                       _dark={{
-                        bgGradient: "linear(to-r, blue.300, blue.200)",
+                        bgGradient: "linear(to-r, fieryEmber.300, fieryEmber.200)",
                       }}
                     >
                       Collab

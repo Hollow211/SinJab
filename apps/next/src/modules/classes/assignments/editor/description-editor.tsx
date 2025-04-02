@@ -58,13 +58,13 @@ export const DescriptionEditor: React.FC<DescriptionEditorProps> = ({
         bg: "gray.800",
         borderColor: "gray.700",
         _focusWithin: {
-          borderColor: "blue.300",
+          borderColor: "fieryEmber.300",
         },
       }}
       rounded="lg"
       spacing="0"
       _focusWithin={{
-        borderColor: "blue.500",
+        borderColor: "fieryEmber.500",
       }}
       transition="border-color 0.2s ease-in-out"
       shadow="sm"

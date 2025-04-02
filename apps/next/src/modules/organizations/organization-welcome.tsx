@@ -20,7 +20,7 @@ export const OrganizationWelcome = () => {
         shadow="md"
         bg={cardBg}
         borderBottomWidth="2px"
-        borderColor="blue.300"
+        borderColor="fieryEmber.300"
         rounded="xl"
       >
         <Stack>

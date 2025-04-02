@@ -10,7 +10,7 @@ export const CollabIcon: React.FC<CollabIconProps> = ({ size = 44 }) => {
   return (
     <Box
       p={`${(10 * size) / 44}px`}
-      color="blue.600"
+      color="fieryEmber.600"
       position="relative"
       overflow="hidden"
       rounded="full"
@@ -18,7 +18,7 @@ export const CollabIcon: React.FC<CollabIconProps> = ({ size = 44 }) => {
       outlineOffset={-1.5}
       outlineColor="gray.100"
       _dark={{
-        color: "blue.300",
+        color: "fieryEmber.300",
         outlineColor: "gray.750",
       }}
       shadow="md"
@@ -33,7 +33,7 @@ export const CollabIcon: React.FC<CollabIconProps> = ({ size = 44 }) => {
         rounded="full"
         bg="rgba(75, 131, 255, 0.1)"
         filter="blur(4px)"
-        color="blue.200"
+        color="fieryEmber.200"
       >
         <Box opacity={0.75}>
           <IconUsersGroup size={(24 * size) / 44} />

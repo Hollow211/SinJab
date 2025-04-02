@@ -69,7 +69,7 @@ export const OrganizationCard: React.FC<OrganizationCardProps> = ({
           shadow="md"
           _hover={{
             transform: "translateY(-2px)",
-            borderBottomColor: "blue.300",
+            borderBottomColor: "fieryEmber.300",
           }}
           overflow="hidden"
         >
@@ -82,7 +82,7 @@ export const OrganizationCard: React.FC<OrganizationCardProps> = ({
             justifyContent="end"
             top="0"
             left="0"
-            bgGradient={`linear(to-r, blue.300, ${getColorFromId(id)})`}
+            bgGradient={`linear(to-r, fieryEmber.300, ${getColorFromId(id)})`}
             zIndex="50"
             pointerEvents="none"
           />

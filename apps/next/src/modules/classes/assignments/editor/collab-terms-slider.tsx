@@ -68,9 +68,9 @@ export const CollabTermsSlider: React.FC<CollabTermsSliderProps> = ({
             rounded="full"
           >
             <RangeSliderFilledTrack
-              bg={isLoaded ? "blue.300" : "gray.400"}
+              bg={isLoaded ? "fieryEmber.300" : "gray.400"}
               _dark={{
-                bg: isLoaded ? "blue.300" : "gray.600",
+                bg: isLoaded ? "fieryEmber.300" : "gray.600",
               }}
             />
           </RangeSliderTrack>
@@ -101,10 +101,10 @@ const Thumb: React.FC<{ index: number; value: number; isLoaded: boolean }> = ({
       boxSize={8}
       borderWidth="2px"
       bg="white"
-      borderColor={isLoaded ? "blue.300" : "gray.400"}
+      borderColor={isLoaded ? "fieryEmber.300" : "gray.400"}
       _dark={{
         bg: "gray.800",
-        borderColor: isLoaded ? "blue.300" : "gray.600",
+        borderColor: isLoaded ? "fieryEmber.300" : "gray.600",
       }}
       shadow="md"
       transitionProperty="transform,border-width"

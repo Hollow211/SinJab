@@ -150,12 +150,12 @@ const FolderCard: React.FC<FolderCardProps> = ({
       role="group"
       sx={{
         "&:has(:focus-visible)": {
-          borderColor: "blue.300",
+          borderColor: "fieryEmber.300",
         },
         _dark: {
           borderColor: "gray.700",
           "&:has(:focus-visible)": {
-            borderColor: "blue.300",
+            borderColor: "fieryEmber.300",
           },
         },
       }}
@@ -169,7 +169,7 @@ const FolderCard: React.FC<FolderCardProps> = ({
             href={`/@${user.username}/folders/${slug ?? folderId}`}
             transition="color 0.2s ease-in-out"
             _hover={{
-              color: "blue.200",
+              color: "fieryEmber.200",
             }}
             minWidth={0}
             _focusVisible={{

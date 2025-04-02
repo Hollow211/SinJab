@@ -94,9 +94,9 @@ const TeacherSide = () => {
             transition="width ease-in-out 300ms"
             top="0"
             left="0"
-            bg="blue.500"
+            bg="fieryEmber.500"
             _dark={{
-              bg: "blue.200",
+              bg: "fieryEmber.200",
             }}
           />
         </Box>

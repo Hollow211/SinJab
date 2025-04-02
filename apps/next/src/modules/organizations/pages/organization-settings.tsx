@@ -67,7 +67,7 @@ export const OrganizationSettings = () => {
   const inputBorder = useColorModeValue("gray.200", "gray.600");
   const mutedColor = useColorModeValue("gray.600", "gray.400");
   const linkDefault = useColorModeValue("gray.700", "gray.300");
-  const highlight = useColorModeValue("blue.500", "blue.200");
+  const highlight = useColorModeValue("fieryEmber.500", "fieryEmber.200");
 
   const deletionScheduled = !!org?.deletedAt;
 
@@ -392,7 +392,7 @@ export const OrganizationSettings = () => {
                 flexDir={{ base: "column", md: "row" }}
                 alignItems={{ base: "start", md: "center" }}
               >
-                <Box color="blue.300">
+                <Box color="fieryEmber.300">
                   <IconWorldCheck size={18} />
                 </Box>
                 <Text>
@@ -469,7 +469,7 @@ const DeletionNotice = () => {
   const formattedDeletion = rtf.format(hoursToDeletion, "hour");
 
   const linkDefault = useColorModeValue("gray.700", "gray.300");
-  const highlight = useColorModeValue("blue.500", "blue.200");
+  const highlight = useColorModeValue("fieryEmber.500", "fieryEmber.200");
 
   return (
     <Stack>

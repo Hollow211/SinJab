@@ -13,7 +13,7 @@ export const ErrorBoundary: React.FC = () => {
         <VStack textAlign="center" px="4">
           <Heading
             fontSize={{ base: "6xl", md: "8xl", lg: "9xl" }}
-            bgGradient="linear(to-r, blue.300, purple.300)"
+            bgGradient="linear(to-r, fieryEmber.300, purple.300)"
             bgClip="text"
           >
             Oh Snap!

@@ -124,13 +124,13 @@ export const Linkable: React.FC<LinkableProps> = ({
         outlineColor="transparent"
         _hover={{
           transform: "translateY(-2px)",
-          borderBottomColor: !disabled ? "blue.200" : disabledHover,
+          borderBottomColor: !disabled ? "fieryEmber.200" : disabledHover,
           shadow: "lg",
         }}
         sx={{
           // https://larsmagnus.co/blog/focus-visible-within-the-missing-pseudo-class
           "&:has(:focus-visible)": {
-            outlineColor: "blue.300",
+            outlineColor: "fieryEmber.300",
             bg: focusColor,
           },
         }}
@@ -151,10 +151,10 @@ export const Linkable: React.FC<LinkableProps> = ({
             position="absolute"
             top="-2"
             left="-3"
-            color="blue.600"
+            color="fieryEmber.600"
             bg="gray.50"
             _dark={{
-              color: "blue.200",
+              color: "fieryEmber.200",
               bg: "gray.900",
             }}
           >
@@ -174,9 +174,9 @@ export const Linkable: React.FC<LinkableProps> = ({
         <HStack spacing="3">
           <Box w="6" h="6" position="relative">
             <Box
-              color={!comingSoon ? "blue.400" : "gray.400"}
+              color={!comingSoon ? "fieryEmber.400" : "gray.400"}
               _dark={{
-                color: !comingSoon ? "blue.400" : "gray.600",
+                color: !comingSoon ? "fieryEmber.400" : "gray.600",
               }}
               position="absolute"
               filter="blur(2px)"
@@ -194,7 +194,7 @@ export const Linkable: React.FC<LinkableProps> = ({
               {icon}
             </Box>
             <Box
-              color={!comingSoon ? "blue.300" : "blue.300"}
+              color={!comingSoon ? "fieryEmber.300" : "fieryEmber.300"}
               position="relative"
               transition="all ease-in-out 300ms"
               _groupHover={{

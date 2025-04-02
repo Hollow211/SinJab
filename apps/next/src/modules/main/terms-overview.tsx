@@ -95,10 +95,10 @@ export const TermsOverview = () => {
                 }}
               >
                 <ToggleGroup.Tab onClick={() => setStarredOnly(false)}>
-                  <Text color={!starredOnly ? "blue.300" : undefined}>All</Text>
+                  <Text color={!starredOnly ? "fieryEmber.300" : undefined}>All</Text>
                 </ToggleGroup.Tab>
                 <ToggleGroup.Tab
-                  color={starredOnly ? "blue.300" : undefined}
+                  color={starredOnly ? "fieryEmber.300" : undefined}
                   onClick={() => setStarredOnly(true)}
                 >
                   <HStack spacing="2">

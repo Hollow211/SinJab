@@ -111,7 +111,7 @@ export const ChangeUsernameInput: React.FC<ChangeUsernameInputProps> = ({
           transition="border-color 0.2s ease-in-out"
           borderColor={addonBg}
           _focusWithin={{
-            borderColor: isInvalid ? red : "blue.300",
+            borderColor: isInvalid ? red : "fieryEmber.300",
           }}
         >
           <InputGroup size="lg" rounded="md" background={addonBg}>

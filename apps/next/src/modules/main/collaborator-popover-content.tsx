@@ -67,7 +67,7 @@ export const CollaboratorPopoverContent = ({
                 colorScheme={type == "creator" ? "green" : "blue"}
                 rounded="full"
                 _light={{
-                  bg: type == "creator" ? undefined : "blue.50",
+                  bg: type == "creator" ? undefined : "fieryEmber.50",
                 }}
               >
                 {
