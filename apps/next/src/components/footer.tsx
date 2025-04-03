@@ -52,7 +52,7 @@ export const Footer = () => {
                 <HStack>
                   <FrameLogo width="18px" height="18px" />
                   <Heading size="md" className="notranslate">
-                    Quenti
+                    Sinjab
                   </Heading>
                 </HStack>
               </Link>

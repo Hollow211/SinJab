@@ -81,7 +81,7 @@ export const LeftNav: React.FC<LeftNavProps> = ({
             fontWeight={700}
             lineHeight={1.33}
           >
-            Quenti
+            SinJab
           </Heading>
         </HStack>
       </Flex>

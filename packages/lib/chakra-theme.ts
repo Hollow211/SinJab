@@ -1,4 +1,4 @@
-import { Open_Sans, Outfit } from "next/font/google";
+import { Aldrich, Open_Sans, Oswald, Outfit } from "next/font/google";
 
 import {
   type ChakraProps,
@@ -9,6 +9,18 @@ import {
 } from "@chakra-ui/react";
 import { type StyleFunctionProps, cssVar, mode } from "@chakra-ui/theme-tools";
 
+export const aldrich = Aldrich({
+  weight: ["400"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-alrich",
+});
+export const oswald = Oswald({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-oswald",
+});
 export const outfit = Outfit({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
@@ -25,7 +37,7 @@ export const openSans = Open_Sans({
 export const config = { initialColorMode: "light", useSystemColorMode: false };
 
 export const fonts = {
-  heading: outfit.style.fontFamily,
+  heading: aldrich.style.fontFamily,
   body: openSans.style.fontFamily,
 };
 
